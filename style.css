@@ -42,7 +42,7 @@ input[type=number]::-webkit-outer-spin-button {
 #chart {
     background-color:white;
     border-radius: 10px;
-    max-width: 100%;
+    width: 100%;
 }
 
 #open-inputs {
@@ -69,7 +69,7 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 10px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
     .sim {
         flex-direction: row;
     }
