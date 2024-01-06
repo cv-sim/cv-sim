@@ -9,14 +9,12 @@ h1 {
 }
 
 #inputs {
-    display: grid;
-    position: absolute;
+    display: inline-grid;
     grid-template-columns: 225px 150px 100px;
     background-color: rgba(255, 215, 0, 0.5);
     justify-content: center;
     padding: 20px;
     border-radius: 10px;
-    margin: 10px;
 }
 
 .input, .input-num {
