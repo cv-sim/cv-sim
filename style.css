@@ -10,7 +10,7 @@ h1 {
 
 #inputs {
     display: inline-grid;
-    grid-template-columns: 225px 150px 100px;
+    grid-template-columns: 18rem 22rem 7rem;
     background-color: rgba(255, 215, 0, 0.5);
     justify-content: center;
     padding: 20px;
