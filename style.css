@@ -1,0 +1,65 @@
+body {
+    background-color: maroon;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: left;
+    color: white;
+}
+
+#inputs {
+    display: grid;
+    position: absolute;
+    grid-template-columns: 225px 150px 100px;
+    background-color: rgba(255, 215, 0, 0.5);
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.input, .input-num {
+    text-align: center;
+    display: block;
+    background: none;
+    border: none;
+}
+
+.input, .input-num, label {
+    margin: 2px;
+    margin-bottom: 4px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+#inputs > label {
+    text-align: left;
+}
+#outputs {
+    text-align: center;
+}
+
+#chart {
+    background-color:white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#open-inputs {
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+#open-inputs:hover{
+    background-color: #444;
+}
